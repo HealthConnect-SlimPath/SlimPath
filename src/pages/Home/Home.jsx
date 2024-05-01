@@ -185,6 +185,7 @@ export default function Home() {
             towards better health. Share experiences, seek advice, and find
             support in a safe and understanding space
           </p>
+          git
           <button>Join now</button>
         </div>
 
