@@ -1,5 +1,7 @@
 /* change padding and margin to rem for responsive design once confirmed with UX*/
-
+* {
+  box-sizing: border-box;
+}
 .header {
   background: #fbdef54d;
   display: flex;
@@ -8,6 +10,11 @@
 
   padding: 0 6rem;
   height: 142px;
+
+  /* overflow: hidden; */
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
 }
 
 .headerBox {
@@ -44,6 +51,7 @@
 /************************ Hero starts******************/
 
 .main {
+  margin-top: 142px;
   background: #fbdef54d;
   display: flex;
   flex-direction: column;
@@ -118,7 +126,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   gap: 2rem;
-  /* margin: 0 6rem; */
 }
 
 .ServiceCards {
@@ -151,9 +158,6 @@
   gap: 5rem;
   padding-top: 2.5rem;
 }
-/* .challenge {
-  width: 31%;
-} */
 
 /* Next section-- Trainer hub*/
 .SectionThree {

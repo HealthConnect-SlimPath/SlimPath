@@ -8,7 +8,7 @@ import GetStarted from "../../assets/Images/get-started.svg";
 import Hero from "../../assets/Images/hero-landing-image.svg";
 import ChallengeOne from "../../assets/Images/water.png";
 import ChallengeTwo from "../../assets/Images/smoothie.png";
-import ChallengeThree from "../../assets/Challenges/sleep-well.svg";
+import ChallengeThree from "../../assets/Images/sleep-challenge.svg";
 import LiveSession from "../../assets/Challenges/live-sessions.svg";
 import VideoLibrary from "../../assets/Challenges/video-library.svg";
 import TrainerOne from "../../assets/Images/trainerpic1.png";
@@ -172,17 +172,17 @@ export default function Home() {
         <section className={styles.challenges}>
           <div className={styles.card}>
             <img src={ChallengeOne} alt="hydration challenge" />
-            <p>Hydration Boost Challenge</p>
+            <p className={styles.ServiceTitle}>Hydration Boost Challenge</p>
           </div>
 
           <div className={styles.card}>
             <img src={ChallengeTwo} alt="hydration challenge" />
-            <p>Mindful Eating</p>
+            <p className={styles.ServiceTitle}>Mindful Eating Challenge</p>
           </div>
 
           <div className={styles.card}>
-            <img src={ChallengeOne} alt="hydration challenge" />
-            <p>Sleep Well Challenge</p>
+            <img src={ChallengeThree} alt="hydration challenge" />
+            <p className={styles.ServiceTitle}>Sleep Well Challenge</p>
           </div>
         </section>
       </section>
